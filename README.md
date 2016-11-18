@@ -18,8 +18,8 @@ Instructions:
 Wire up LEDs and resistors to Digital Pins 36 - 51 (odd numbered pins only).
 These 16 pins were selected on the outermost edge of the Arduino Mega for easy wiring access.
 Open Arduino_MIDI_LED.ino in the Arduino IDE and upload to your Arduino Mega.
-Send MIDI via Hairless MIDI https://projectgus.github.io/hairless-midiserial/ or any other Serial MIDI client
-MIDI can be easily routed from Ableton -> Hairless MIDI using the built-in IAC driver on Mac OS X
+Send MIDI via Hairless MIDI https://projectgus.github.io/hairless-midiserial/ or any other Serial MIDI client.
+MIDI can be easily routed from Ableton -> Hairless MIDI using the built-in IAC driver on Mac OS X.
 Play notes 36 (C1) to 51 (D#2) and enjoy the light show!
 
 Note: LEDs will stay on during the duration of the Note On message, and shut off upon Note Off, so it works well with momentary MIDI controller messages sent from piano keys and momentary buttons.
