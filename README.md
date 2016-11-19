@@ -23,3 +23,5 @@ MIDI can be easily routed from Ableton -> Hairless MIDI using the built-in IAC d
 Play notes 36 (C1) to 51 (D#2) and enjoy the light show!
 
 Note: LEDs will stay on during the duration of the Note On message, and shut off upon Note Off, so it works well with momentary MIDI controller messages sent from piano keys and momentary buttons.
+
+Video demo here: https://youtu.be/DFHLbINKMNg
