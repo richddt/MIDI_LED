@@ -15,6 +15,7 @@ It is also compatible with other Arduino boards if you update the Digital Pins t
 It is compatible with MIDI over Serial and has been tested with Hairless MIDI running on Mac OS X at 115200 baud
 
 Instructions:
+Use Arduino's Library Manager to install MIDI Library: https://github.com/FortySevenEffects/arduino_midi_library
 Wire up LEDs and resistors to Digital Pins 36 - 51 (odd numbered pins only).
 These 16 pins were selected on the outermost edge of the Arduino Mega for easy wiring access.
 Open Arduino_MIDI_LED.ino in the Arduino IDE and upload to your Arduino Mega.
